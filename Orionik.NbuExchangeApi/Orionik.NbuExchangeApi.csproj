@@ -2,6 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Ihor Popkov</Authors>
+    <Product>NbuExchangeApi</Product>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Orionik.XmlSerialization" Version="1.0.0" />
+  </ItemGroup>
 
 </Project>
